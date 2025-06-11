@@ -1,0 +1,61 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_SHARED_LIBS
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_parser -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles 0
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_parser -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+make[2]: Nothing to be done for 'preinstall'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'
+[36mInstall the project...[0m
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/environment/pythonpath.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/__init__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/grammar.lark
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/parser.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/definition.py
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/__init__.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/definition.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/python3.6/site-packages/rosidl_parser/parser.py'...
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/ament_index/resource_index/package_run_dependencies/rosidl_parser
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/ament_index/resource_index/parent_prefix_path/rosidl_parser
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/environment/ament_prefix_path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/environment/path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/local_setup.bash
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/local_setup.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/local_setup.zsh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/ament_index/resource_index/packages/rosidl_parser
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig-version.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/share/rosidl_parser/package.xml
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_parser/lib/rosidl_parser/idl2png
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_parser'

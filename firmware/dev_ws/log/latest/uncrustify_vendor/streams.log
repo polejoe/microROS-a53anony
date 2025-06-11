@@ -1,0 +1,198 @@
+[0.359s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake /home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/uncrustify_vendor -DCMAKE_INSTALL_PREFIX=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor
+[0.947s] -- The C compiler identification is GNU 7.5.0
+[0.948s] -- The CXX compiler identification is GNU 7.5.0
+[0.948s] -- Check for working C compiler: /usr/bin/cc
+[0.948s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.950s] -- Detecting C compiler ABI info
+[0.950s] -- Detecting C compiler ABI info - done
+[0.950s] -- Detecting C compile features
+[0.950s] -- Detecting C compile features - done
+[0.950s] -- Check for working CXX compiler: /usr/bin/c++
+[0.951s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.951s] -- Detecting CXX compiler ABI info
+[1.006s] -- Detecting CXX compiler ABI info - done
+[1.007s] -- Detecting CXX compile features
+[1.424s] -- Detecting CXX compile features - done
+[1.426s] -- Found ament_cmake: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+[1.461s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.865s] -- Configuring done
+[1.873s] -- Generating done
+[1.873s] -- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor
+[2.033s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake /home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/uncrustify_vendor -DCMAKE_INSTALL_PREFIX=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor
+[2.034s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake --build /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor -- -j8 -l8
+[2.053s] [35m[1mScanning dependencies of target uncrustify-0.68.1[0m
+[2.053s] [ 12%] [34m[1mCreating directories for 'uncrustify-0.68.1'[0m
+[2.108s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'uncrustify-0.68.1'[0m
+[2.108s] -- Downloading...
+[2.108s]    dst='/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1.tar.gz'
+[2.108s]    timeout='600 seconds'
+[2.108s] -- Using src='https://github.com/uncrustify/uncrustify/archive/uncrustify-0.68.1.tar.gz'
+[5.760s] -- verifying file...
+[5.760s]        file='/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1.tar.gz'
+[5.762s] -- Downloading... done
+[5.779s] -- extracting...
+[5.780s]      src='/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1.tar.gz'
+[5.780s]      dst='/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1'
+[5.780s] -- extracting... [tar xfz]
+[5.875s] -- extracting... [analysis]
+[5.875s] -- extracting... [rename]
+[5.875s] -- extracting... [clean up]
+[5.875s] -- extracting... done
+[5.891s] [ 50%] [34m[1mNo update step for 'uncrustify-0.68.1'[0m
+[5.892s] [ 50%] [34m[1mPerforming patch step for 'uncrustify-0.68.1'[0m
+[5.893s] patching file CMakeLists.txt
+[5.893s] Hunk #1 succeeded at 373 (offset 84 lines).
+[5.914s] [ 62%] [34m[1mPerforming configure step for 'uncrustify-0.68.1'[0m
+[5.964s] -- The C compiler identification is GNU 7.5.0
+[6.012s] -- The CXX compiler identification is GNU 7.5.0
+[6.016s] -- Check for working C compiler: /usr/bin/cc
+[6.070s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.070s] -- Detecting C compiler ABI info
+[6.125s] -- Detecting C compiler ABI info - done
+[6.133s] -- Detecting C compile features
+[6.298s] -- Detecting C compile features - done
+[6.301s] -- Check for working CXX compiler: /usr/bin/c++
+[6.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.365s] -- Detecting CXX compiler ABI info
+[6.430s] -- Detecting CXX compiler ABI info - done
+[6.437s] -- Detecting CXX compile features
+[6.733s] -- Detecting CXX compile features - done
+[6.744s] -- Performing Test CXXFLAG_Wall
+[6.807s] -- Performing Test CXXFLAG_Wall - Success
+[6.812s] -- Performing Test CXXFLAG_Wextra
+[6.877s] -- Performing Test CXXFLAG_Wextra - Success
+[6.881s] -- Performing Test CXXFLAG_Wshadow
+[6.948s] -- Performing Test CXXFLAG_Wshadow - Success
+[6.951s] -- Performing Test CXXFLAG_Wpointer_arith
+[7.017s] -- Performing Test CXXFLAG_Wpointer_arith - Success
+[7.021s] -- Performing Test CXXFLAG_Wcast_qual
+[7.084s] -- Performing Test CXXFLAG_Wcast_qual - Success
+[7.088s] -- Performing Test CXXFLAG_Wcast_align
+[7.153s] -- Performing Test CXXFLAG_Wcast_align - Success
+[7.157s] -- Performing Test CXXFLAG_Wc_11_extensions
+[7.176s] -- Performing Test CXXFLAG_Wc_11_extensions - Failed
+[7.177s] -- Looking for C++ include inttypes.h
+[7.240s] -- Looking for C++ include inttypes.h - found
+[7.241s] -- Looking for C++ include memory.h
+[7.306s] -- Looking for C++ include memory.h - found
+[7.307s] -- Looking for C++ include stdint.h
+[7.372s] -- Looking for C++ include stdint.h - found
+[7.372s] -- Looking for C++ include stdlib.h
+[7.443s] -- Looking for C++ include stdlib.h - found
+[7.444s] -- Looking for C++ include strings.h
+[7.508s] -- Looking for C++ include strings.h - found
+[7.509s] -- Looking for C++ include string.h
+[7.575s] -- Looking for C++ include string.h - found
+[7.576s] -- Looking for C++ include sys/stat.h
+[7.642s] -- Looking for C++ include sys/stat.h - found
+[7.643s] -- Looking for C++ include sys/types.h
+[7.710s] -- Looking for C++ include sys/types.h - found
+[7.711s] -- Looking for C++ include unistd.h
+[7.779s] -- Looking for C++ include unistd.h - found
+[7.779s] -- Looking for C++ include utime.h
+[7.844s] -- Looking for C++ include utime.h - found
+[7.844s] -- Looking for stdbool.h
+[7.897s] -- Looking for stdbool.h - found
+[7.898s] -- Looking for memset
+[7.972s] -- Looking for memset - found
+[7.972s] -- Looking for strcasecmp
+[8.047s] -- Looking for strcasecmp - found
+[8.047s] -- Looking for strchr
+[8.079s] -- Looking for strchr - not found
+[8.079s] -- Looking for strdup
+[8.152s] -- Looking for strdup - found
+[8.153s] -- Looking for strerror
+[8.228s] -- Looking for strerror - found
+[8.228s] -- Looking for strtol
+[8.303s] -- Looking for strtol - found
+[8.304s] -- Looking for strtoul
+[8.378s] -- Looking for strtoul - found
+[8.378s] -- Looking for stddef.h
+[8.434s] -- Looking for stddef.h - found
+[8.434s] -- Check size of _Bool
+[8.492s] -- Check size of _Bool - done
+[8.502s] -- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+[8.512s] -- scripts/make_version.py exited with code 64: Unknown version control system in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1'.
+[8.513s] 
+[8.513s] As a fallback, version 'Uncrustify-0.68_f' will be used.
+[8.533s] -- Configuring done
+[8.580s] -- Generating done
+[8.589s] -- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build
+[8.605s] [ 75%] [34m[1mPerforming build step for 'uncrustify-0.68.1'[0m
+[8.636s] [  4%] [34m[1mGenerating token_names.h[0m
+[8.636s] [  4%] [34m[1mGenerating option_enum.h[0m
+[8.636s] [  4%] [34m[1mGenerating punctuator_table.h[0m
+[8.638s] [  7%] [34m[1mGenerating option_enum.cpp[0m
+[8.639s] [  9%] [34m[1mGenerating options.cpp[0m
+[8.687s] [35m[1mScanning dependencies of target uncrustify[0m
+[8.728s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_stack.cpp.o[0m
+[8.729s] [ 17%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/backup.cpp.o[0m
+[8.729s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align.cpp.o[0m
+[8.729s] [ 19%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/args.cpp.o[0m
+[8.729s] [ 21%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o[0m
+[8.730s] [ 24%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/braces.cpp.o[0m
+[8.731s] [ 24%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o[0m
+[8.734s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/chunk_list.cpp.o[0m
+[8.803s] [ 29%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine.cpp.o[0m
+[9.001s] [ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o[0m
+[9.056s] [ 34%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o[0m
+[9.067s] [ 36%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/detect.cpp.o[0m
+[9.106s] [ 39%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o[0m
+[9.125s] [ 39%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/indent.cpp.o[0m
+[9.236s] [ 41%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/keywords.cpp.o[0m
+[9.278s] [ 43%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o[0m
+[9.309s] [ 46%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/language_tools.cpp.o[0m
+[9.357s] [ 48%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logger.cpp.o[0m
+[9.382s] [ 51%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logmask.cpp.o[0m
+[9.394s] [ 53%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/md5.cpp.o[0m
+[9.495s] [ 53%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/newlines.cpp.o[0m
+[9.580s] [ 56%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option.cpp.o[0m
+[9.607s] [ 58%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o[0m
+[9.611s] [ 60%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/output.cpp.o[0m
+[9.647s] [ 63%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parens.cpp.o[0m
+[9.736s] [ 65%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/frame_list.cpp.o[0m
+[9.916s] [ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ParseFrame.cpp.o[0m
+[9.919s] [ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/punctuators.cpp.o[0m
+[9.939s] [ 70%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/semicolons.cpp.o[0m
+[9.946s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/sorting.cpp.o[0m
+[10.039s] [ 75%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/space.cpp.o[0m
+[10.205s] [ 78%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize.cpp.o[0m
+[10.213s] [ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o[0m
+[10.236s] [ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_text.cpp.o[0m
+[10.244s] [ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o[0m
+[10.373s] [ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o[0m
+[10.479s] [ 87%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unicode.cpp.o[0m
+[10.645s] [ 92%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/width.cpp.o[0m
+[10.645s] [ 92%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o[0m
+[10.684s] [ 95%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options.cpp.o[0m
+[10.697s] [ 97%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option_enum.cpp.o[0m
+[11.912s] [100%] [32m[1mLinking CXX executable uncrustify[0m
+[12.108s] [100%] Built target uncrustify
+[12.133s] [ 87%] [34m[1mPerforming install step for 'uncrustify-0.68.1'[0m
+[12.181s] [100%] Built target uncrustify
+[12.199s] [36mInstall the project...[0m
+[12.206s] -- Install configuration: ""
+[12.206s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify_vendor_install/bin/uncrustify
+[12.226s] [100%] [34m[1mCompleted 'uncrustify-0.68.1'[0m
+[12.257s] [100%] Built target uncrustify-0.68.1
+[12.267s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake --build /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor -- -j8 -l8
+[12.287s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake --build /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor --target install -- -j8 -l8
+[12.328s] [100%] Built target uncrustify-0.68.1
+[12.343s] [36mInstall the project...[0m
+[12.352s] -- Install configuration: ""
+[12.352s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor
+[12.352s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/bin
+[12.352s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/bin/uncrustify
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/package_run_dependencies/uncrustify_vendor
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/parent_prefix_path/uncrustify_vendor
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.sh
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.sh
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.bash
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.sh
+[12.356s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.zsh
+[12.357s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/packages/uncrustify_vendor
+[12.357s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig.cmake
+[12.357s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig-version.cmake
+[12.357s] -- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/package.xml
+[12.365s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_target_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_interfaces:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_link_flags:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_libraries:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_include_directories:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_export_definitions:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/cmake --build /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor --target install -- -j8 -l8

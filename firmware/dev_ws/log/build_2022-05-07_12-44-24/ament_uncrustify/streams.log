@@ -1,0 +1,43 @@
+[0.574s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed
+[0.781s] running egg_info
+[0.782s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[0.782s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[0.782s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[0.782s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[0.782s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[0.782s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[0.784s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.785s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.786s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.786s] running build
+[0.786s] running build_py
+[0.786s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build
+[0.786s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib
+[0.786s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.786s] copying ament_uncrustify/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.786s] copying ament_uncrustify/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.787s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.787s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.787s] running install
+[0.787s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.787s]   setuptools.SetuptoolsDeprecationWarning,
+[0.787s] running install_lib
+[0.788s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify
+[0.788s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify
+[0.788s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify
+[0.788s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify/configuration
+[0.788s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify/configuration
+[0.788s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify/main.py to main.cpython-36.pyc
+[0.790s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify/__init__.py to __init__.cpython-36.pyc
+[0.790s] running install_data
+[0.791s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_uncrustify
+[0.791s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index
+[0.791s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index
+[0.791s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.791s] copying resource/ament_uncrustify -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/share/ament_index/resource_index/packages
+[0.791s] running install_egg_info
+[0.792s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages/ament_uncrustify-0.7.12-py3.6.egg-info
+[0.793s] running install_scripts
+[0.807s] Installing ament_uncrustify script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/bin
+[0.807s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/install.log'
+[0.836s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor CMAKE_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/uncrustify_vendor/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_uncrustify --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_uncrustify/install.log --single-version-externally-managed

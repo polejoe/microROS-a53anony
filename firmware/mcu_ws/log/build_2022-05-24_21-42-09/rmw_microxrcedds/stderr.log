@@ -1,0 +1,312 @@
+CMake Warning at CMakeLists.txt:153 (find_package):
+  By not providing "Findrosidl_typesupport_microxrcedds_cpp.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "rosidl_typesupport_microxrcedds_cpp", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidl_typesupport_microxrcedds_cpp" with any of the following names:
+
+    rosidl_typesupport_microxrcedds_cppConfig.cmake
+    rosidl_typesupport_microxrcedds_cpp-config.cmake
+
+  Add the installation prefix of "rosidl_typesupport_microxrcedds_cpp" to
+  CMAKE_PREFIX_PATH or set "rosidl_typesupport_microxrcedds_cpp_DIR" to a
+  directory containing one of the above files.  If
+  "rosidl_typesupport_microxrcedds_cpp" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_implementation_identifier.c:16[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_serialization_format.c:16[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_client.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_get_gid_for_publisher.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_guard_condition.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:17[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:29:29:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #ifdef directive
+   29 | #ifdef MICRO_XRCEDDS_SERIAL [01;35m[K||[m[K defined(MICRO_XRCEDDS_CUSTOM_SERIAL)
+      |                             [01;35m[K^~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:[m[K In function '[01m[Krmw_init[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:244:12:[m[K [01;35m[Kwarning: [m[Kreturning '[01m[Kvoid *[m[K' from a function with return type '[01m[Krmw_ret_t[m[K' {aka '[01m[Kint[m[K'} makes integer from pointer without a cast [[01;35m[K-Wint-conversion[m[K]
+  244 |     return [01;35m[KNULL[m[K;
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:[m[K In function '[01m[Krmw_shutdown[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:298:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krmw_context_fini[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  298 |   [01;35m[Krmw_context_fini(context)[m[K;
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./rmw_microxrcedds_topic.h:21[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microxrcedds_topic.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:[m[K In function '[01m[Krmw_destroy_node[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:166:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krmw_destroy_publisher[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  166 |       [01;35m[Krmw_destroy_publisher(node, custom_publisher->rmw_handle)[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:175:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krmw_destroy_subscription[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  175 |       [01;35m[Krmw_destroy_subscription(node, custom_subscription->rmw_handle)[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:184:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krmw_destroy_service[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  184 |       [01;35m[Krmw_destroy_service(node, custom_service->rmw_handle)[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c:193:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Krmw_destroy_client[m[K', declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+  193 |       [01;35m[Krmw_destroy_client(node, custom_client->rmw_handle)[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publish.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publisher.c:17[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_request.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_response.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_service.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_subscription.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_take.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_uros_options.c:3[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_trigger_guard_condition.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait.c:[m[K In function '[01m[Krmw_wait[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait.c:81:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kret[m[K' [[01;35m[K-Wunused-variable[m[K]
+   81 |   rmw_ret_t [01;35m[Kret[m[K = RMW_RET_OK;
+      |             [01;35m[K^~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:46:26:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+   46 | rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:50:21:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+   50 | rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/types.c:54:20:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+   54 | rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_wait_set.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./utils.h:20[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/utils.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/./callbacks.h:18[m[K,
+                 from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:15[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:219:33:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_subscriptions[m[K' [[01;35m[K-Wpedantic[m[K]
+  219 | extern rmw_uxrce_subscription_t [01;35m[Kcustom_subscriptions[m[K[RMW_UXRCE_MAX_SUBSCRIPTIONS];
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:222:28:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_services[m[K' [[01;35m[K-Wpedantic[m[K]
+  222 | extern rmw_uxrce_service_t [01;35m[Kcustom_services[m[K[RMW_UXRCE_MAX_SERVICES];
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/././types.h:225:27:[m[K [01;35m[Kwarning: [m[KISO C forbids zero-size array '[01m[Kcustom_clients[m[K' [[01;35m[K-Wpedantic[m[K]
+  225 | extern rmw_uxrce_client_t [01;35m[Kcustom_clients[m[K[RMW_UXRCE_MAX_CLIENTS];
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:[m[K In function '[01m[Kon_topic[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:36:23:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargs[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   36 |                 [01;35m[Kvoid* args[m[K)
+      |                 [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:[m[K In function '[01m[Kon_request[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:71:23:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargs[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   71 |                 [01;35m[Kvoid* args[m[K)
+      |                 [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:[m[K In function '[01m[Kon_reply[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/callbacks.c:105:23:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargs[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  105 |                 [01;35m[Kvoid* args[m[K)
+      |                 [01;35m[K~~~~~~^~~~[m[K

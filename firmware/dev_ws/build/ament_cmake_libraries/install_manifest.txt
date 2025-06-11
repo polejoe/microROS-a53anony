@@ -1,0 +1,15 @@
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_index/resource_index/package_run_dependencies/ament_cmake_libraries
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_index/resource_index/parent_prefix_path/ament_cmake_libraries
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/ament_prefix_path.sh
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/path.sh
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.bash
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.sh
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.zsh
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_index/resource_index/packages/ament_cmake_libraries
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_libraries-extras.cmake
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/package.xml
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_pack_build_configuration.cmake
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_unpack_build_configuration.cmake
+/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_deduplicate.cmake

@@ -1,0 +1,81 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_adapter -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles 0
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_adapter -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+make[2]: Nothing to be done for 'preinstall'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'
+[36mInstall the project...[0m
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/main.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/__init__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/msg
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/srv.idl.em
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/msg.idl.em
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/action.idl.em
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/struct.idl.em
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/parser.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/cli.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/action
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/action/__init__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/__main__.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/srv
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/srv/__init__.py
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/__init__.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/__main__.py'...
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/action'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/action/__init__.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/cli.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/main.py'...
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/msg'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/parser.py'...
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py'...
+Listing '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/srv'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/python3.6/site-packages/rosidl_adapter/srv/__init__.py'...
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/ament_index/resource_index/package_run_dependencies/rosidl_adapter
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/ament_index/resource_index/parent_prefix_path/rosidl_adapter
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/environment/path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.bash
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/local_setup.zsh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/ament_index/resource_index/packages/rosidl_adapter
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapter-extras.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig-version.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/package.xml
+-- Up-to-date: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/rosidl_adapter/msg2idl.py
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/rosidl_adapter/lib/rosidl_adapter/srv2idl.py
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/rosidl_adapter'

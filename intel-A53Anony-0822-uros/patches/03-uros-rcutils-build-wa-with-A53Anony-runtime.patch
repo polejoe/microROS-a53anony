@@ -1,0 +1,14 @@
+diff --git a/src/error_handling_helpers.h b/src/error_handling_helpers.h
+index a46a194..38e7c99 100644
+--- a/src/error_handling_helpers.h
++++ b/src/error_handling_helpers.h
+@@ -22,7 +22,8 @@
+ // For example, when memory cannot be allocated or a previous error state is
+ // being overwritten.
+ #ifndef RCUTILS_REPORT_ERROR_HANDLING_ERRORS
+-#define RCUTILS_REPORT_ERROR_HANDLING_ERRORS 1
++//#define RCUTILS_REPORT_ERROR_HANDLING_ERRORS 1
++#define RCUTILS_REPORT_ERROR_HANDLING_ERRORS 0      /******* WA for A53Anony RT integrate */
+ #endif
+ 
+ // When this define evaluates to true (default), then a warning will be written

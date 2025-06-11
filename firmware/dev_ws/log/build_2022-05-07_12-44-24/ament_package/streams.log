@@ -1,0 +1,103 @@
+[1.396s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_package': PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed
+[1.646s] running egg_info
+[1.647s] creating ../../build/ament_package/ament_package.egg-info
+[1.647s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.647s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.647s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.649s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.651s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.651s] adding license file 'LICENSE'
+[1.652s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.652s] running build
+[1.652s] running build_py
+[1.652s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build
+[1.653s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib
+[1.653s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.653s] copying ament_package/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.653s] copying ament_package/templates.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.653s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[1.654s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.654s] copying ament_package/template/environment_hook/library_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.655s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.655s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.655s] copying ament_package/template/environment_hook/path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.655s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.655s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.655s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.656s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.656s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.656s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.656s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.656s] copying ament_package/template/package_level/local_setup.bash.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.656s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.656s] copying ament_package/template/package_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.656s] copying ament_package/template/package_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.657s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.657s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.657s] copying ament_package/template/prefix_level/setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.657s] copying ament_package/template/prefix_level/setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.657s] copying ament_package/template/prefix_level/setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.657s] copying ament_package/template/prefix_level/setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.658s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.658s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.658s] copying ament_package/template/prefix_level/local_setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.658s] copying ament_package/template/prefix_level/_order_packages.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.658s] running install
+[1.659s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.659s]   setuptools.SetuptoolsDeprecationWarning,
+[1.659s] running install_lib
+[1.660s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package
+[1.660s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package
+[1.660s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package
+[1.660s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template
+[1.660s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.660s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.661s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/environment_hook
+[1.662s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.662s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level
+[1.663s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/package_level
+[1.663s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/package_level
+[1.663s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/package_level
+[1.663s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/package_level
+[1.663s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/package_level
+[1.663s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.663s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.664s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_order_packages.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level
+[1.665s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/__init__.py to __init__.cpython-36.pyc
+[1.665s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/templates.py to templates.cpython-36.pyc
+[1.665s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-36.pyc
+[1.666s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package/template/prefix_level/_order_packages.py to _order_packages.cpython-36.pyc
+[1.666s] running install_data
+[1.667s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/share/ament_package
+[1.667s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/share/ament_index
+[1.667s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[1.667s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[1.667s] copying resource/ament_package -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[1.668s] running install_egg_info
+[1.669s] Copying ../../build/ament_package/ament_package.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages/ament_package-0.7.3-py3.6.egg-info
+[1.669s] running install_scripts
+[1.685s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/install.log'
+[1.715s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_package' returned '0': PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_package --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed

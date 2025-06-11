@@ -1,0 +1,137 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ENABLE_TESTING
+    THIRDPARTY
+
+
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_format_error_string[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:141:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  141 |   [01;35m[Krcutils_error_string_t * error_string[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:142:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_state[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  142 |   [01;35m[Kconst rcutils_error_state_t * error_state[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_initialize_error_handling_thread_local_storage[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:45:76:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kallocator[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   45 | rcutils_initialize_error_handling_thread_local_storage([01;35m[Krcutils_allocator_t allocator[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_get_cwd[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:44:24:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   44 | rcutils_get_cwd([01;35m[Kchar * buffer[m[K, size_t max_length)
+      |                 [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:44:39:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kmax_length[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   44 | rcutils_get_cwd(char * buffer, [01;35m[Ksize_t max_length[m[K)
+      |                                [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_directory[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:67:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   67 | rcutils_is_directory([01;35m[Kconst char * abs_path[m[K)
+      |                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_file[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:86:30:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   86 | rcutils_is_file([01;35m[Kconst char * abs_path[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_exists[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:105:29:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  105 | rcutils_exists([01;35m[Kconst char * abs_path[m[K)
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_readable[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:120:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  120 | rcutils_is_readable([01;35m[Kconst char * abs_path[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_writable[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:142:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  142 | rcutils_is_writable([01;35m[Kconst char * abs_path[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:[m[K In function '[01m[Krcutils_is_readable_and_writable[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[K__format_overwriting_error_state_message[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/filesystem.c:164:47:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kabs_path[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  164 | rcutils_is_readable_and_writable([01;35m[Kconst char * abs_path[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:93:10:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   93 |   [01;35m[Kchar * buffer[m[K,
+      |   [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:94:10:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer_size[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   94 |   [01;35m[Ksize_t buffer_size[m[K,
+      |   [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:95:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knew_error_state[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   95 |   [01;35m[Kconst rcutils_error_state_t * new_error_state[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_set_error_state[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:177:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  177 |   [01;35m[Kconst char * error_string[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:178:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kfile[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  178 |   [01;35m[Kconst char * file[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:179:10:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kline_number[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  179 |   [01;35m[Ksize_t line_number[m[K)
+      |   [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_get_error_string[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:260:36:[m[K [01;35m[Kwarning: [m[Kinitializer-string for array of chars is too long
+  260 |   return (rcutils_error_string_t) {[01;35m[K"rcutils error handling disabled"[m[K};
+      |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:260:36:[m[K [01;36m[Knote: [m[K(near initialization for '[01m[K(anonymous).str[m[K')
+At top level:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:92:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__format_overwriting_error_state_message[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+   92 | [01;35m[K__format_overwriting_error_state_message[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:83:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__same_string[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+   83 | [01;35m[K__same_string[m[K(const char * str1, const char * str2, size_t count)
+      | [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:140:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_format_error_string[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+  140 | [01;35m[K__rcutils_format_error_string[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:110:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_convert_uint64_t_into_c_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+  110 | [01;35m[K__rcutils_convert_uint64_t_into_c_str[m[K(uint64_t number, char * buffer, size_t buffer_size)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:52:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_copy_string[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+   52 | [01;35m[K__rcutils_copy_string[m[K(char * dst, size_t dst_size, const char * src)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/process.c:[m[K In function '[01m[Krcutils_get_pid[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/process.c:41:15:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kgetpid[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+   41 |   return (int)[01;35m[Kgetpid[m[K();
+      |               [01;35m[K^~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_logging_console_output_handler[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:805:14:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[KFILE *[m[K' {aka '[01m[Kvoid *[m[K'} from '[01m[Kint[m[K' makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  805 |       stream [01;35m[K=[m[K stdout;
+      |              [01;35m[K^[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:810:14:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[KFILE *[m[K' {aka '[01m[Kvoid *[m[K'} from '[01m[Kint[m[K' makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  810 |       stream [01;35m[K=[m[K stderr;
+      |              [01;35m[K^[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:867:48:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+  867 |     if (g_force_stdout_line_buffered && stream [01;35m[K==[m[K stdout) {
+      |                                                [01;35m[K^~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:[m[K In function '[01m[Kget_best_matching_directory[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:92:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbase_dir[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   92 |   [01;35m[Kconst char * base_dir[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:93:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knode_name[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   93 |   [01;35m[Kconst char * node_name[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:94:10:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kmatched_name[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   94 |   [01;35m[Kchar * matched_name[m[K)
+      |   [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:[m[K In function '[01m[Kprefix_match_lookup[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:161:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knode_name[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  161 |   [01;35m[Kconst char * node_name[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:162:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knode_namespace[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  162 |   [01;35m[Kconst char * node_namespace[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:163:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kros_secure_root_env[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  163 |   [01;35m[Kconst char * ros_secure_root_env[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:164:31:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kallocator[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  164 |   [01;35m[Kconst rcutils_allocator_t * allocator[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:[m[K In function '[01m[Krcutils_get_secure_root[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:233:10:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Klookup_strategy[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  233 |   char * [01;35m[Klookup_strategy[m[K = NULL;
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+At top level:
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcutils/src/security_directory.c:91:13:[m[K [01;35m[Kwarning: [m[K'[01m[Kget_best_matching_directory[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+   91 | static bool [01;35m[Kget_best_matching_directory[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

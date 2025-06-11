@@ -1,0 +1,17 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:[m[K In function '[01m[Krcl_lifecycle_state_machine_fini[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:239:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+  239 |     rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:249:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+  249 |     rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:[m[K In function '[01m[K_trigger_transition[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_lifecycle/src/rcl_lifecycle.c:342:26:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+  342 |       rcl_error_string_t [01;35m[Kerror_string[m[K = rcl_get_error_string();
+      |                          [01;35m[K^~~~~~~~~~~~[m[K

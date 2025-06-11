@@ -1,0 +1,33 @@
+CMake Warning at CMakeLists.txt:20 (find_package):
+  By not providing "Findpoco_vendor.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "poco_vendor", but CMake did not find one.
+
+  Could not find a package configuration file provided by "poco_vendor" with
+  any of the following names:
+
+    poco_vendorConfig.cmake
+    poco_vendor-config.cmake
+
+  Add the installation prefix of "poco_vendor" to CMAKE_PREFIX_PATH or set
+  "poco_vendor_DIR" to a directory containing one of the above files.  If
+  "poco_vendor" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+CMake Warning (dev) at /usr/lib/cmake/Poco/PocoFoundationTargets.cmake:63 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+Call Stack (most recent call first):
+  /usr/lib/cmake/Poco/PocoFoundationConfig.cmake:1 (include)
+  /usr/lib/cmake/Poco/PocoConfig.cmake:29 (find_package)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+

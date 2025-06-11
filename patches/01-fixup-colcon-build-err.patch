@@ -1,0 +1,12 @@
+Index: micros_ws/firmware/freertos_apps/apps/int32_publisher/app-colcon.meta
+===================================================================
+--- micros_ws.orig/firmware/freertos_apps/apps/int32_publisher/app-colcon.meta
++++ micros_ws/firmware/freertos_apps/apps/int32_publisher/app-colcon.meta
+@@ -2,7 +2,6 @@
+     "names": {
+         "rmw_microxrcedds": {
+             "cmake-args": [
+-                "-DRMW_UXRCE_TRANSPORT=custom-serial",
+                 "-DRMW_UXRCE_MAX_NODES=1",
+                 "-DRMW_UXRCE_MAX_PUBLISHERS=1",
+                 "-DRMW_UXRCE_MAX_SUBSCRIPTIONS=0",

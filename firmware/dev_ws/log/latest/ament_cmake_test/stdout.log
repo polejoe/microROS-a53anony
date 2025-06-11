@@ -1,0 +1,29 @@
+-- Found ament_cmake_core: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_python: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cmake_test
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/environment/pythonpath.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test/__init__.py
+Listing '/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test'...
+Compiling '/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/lib/python3.6/site-packages/ament_cmake_test/__init__.py'...
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_index/resource_index/package_run_dependencies/ament_cmake_test
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_index/resource_index/parent_prefix_path/ament_cmake_test
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/environment/ament_prefix_path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/environment/path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/local_setup.bash
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/local_setup.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/local_setup.zsh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_index/resource_index/packages/ament_cmake_test
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_cmake_testConfig-version.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/package.xml
+-- Up-to-date: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/ament_add_test.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py

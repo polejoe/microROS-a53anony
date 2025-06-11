@@ -1,0 +1,42 @@
+[1.663s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed
+[1.898s] running egg_info
+[1.899s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[1.899s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[1.899s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[1.899s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[1.899s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[1.900s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[1.901s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.902s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.903s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.904s] running build
+[1.904s] running build_py
+[1.904s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build
+[1.904s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib
+[1.904s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.905s] copying ament_cpplint/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.905s] copying ament_cpplint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.905s] copying ament_cpplint/cpplint.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.905s] running install
+[1.905s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.905s]   setuptools.SetuptoolsDeprecationWarning,
+[1.906s] running install_lib
+[1.906s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint
+[1.906s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint
+[1.906s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint
+[1.907s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint
+[1.907s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint/main.py to main.cpython-36.pyc
+[1.910s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint/__init__.py to __init__.cpython-36.pyc
+[1.910s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-36.pyc
+[1.936s] running install_data
+[1.937s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[1.937s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[1.937s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[1.937s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.938s] copying resource/ament_cpplint -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.938s] running install_egg_info
+[1.939s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages/ament_cpplint-0.7.12-py3.6.egg-info
+[1.940s] running install_scripts
+[1.965s] Installing ament_cpplint script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/bin
+[1.965s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/install.log'
+[2.349s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cpplint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed

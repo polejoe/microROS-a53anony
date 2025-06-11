@@ -1,0 +1,43 @@
+Re-run cmake no build system arguments
+-- Found ament_cmake: 0.7.6 (/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/common_interfaces/common_interfaces -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles 0
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/common_interfaces/common_interfaces -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+make[2]: Nothing to be done for 'preinstall'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'
+[36mInstall the project...[0m
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/environment/path.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.bash
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.sh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/local_setup.zsh
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/common_interfaces/share/common_interfaces/package.xml
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/common_interfaces'

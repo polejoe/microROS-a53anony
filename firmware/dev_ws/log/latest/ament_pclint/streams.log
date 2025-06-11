@@ -1,0 +1,81 @@
+[1.598s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed
+[1.891s] running egg_info
+[1.894s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[1.894s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[1.894s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[1.894s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[1.895s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[1.895s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[1.895s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.895s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.896s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.896s] running build
+[1.896s] running build_py
+[1.896s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build
+[1.896s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib
+[1.902s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.911s] copying ament_pclint/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.911s] copying ament_pclint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[1.911s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.911s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.911s] copying ament_pclint/config/gcc/co-g++.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.912s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.912s] copying ament_pclint/config/gcc/co-gcc.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.912s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.912s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.912s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.913s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.913s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.921s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.922s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.922s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.922s] copying ament_pclint/config/msvc/co-cl.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.922s] copying ament_pclint/config/au-misra3.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/c99.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/c++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/deprecate.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.923s] copying ament_pclint/config/env-xml.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[1.924s] running install
+[1.924s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.924s]   setuptools.SetuptoolsDeprecationWarning,
+[1.924s] running install_lib
+[1.924s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint
+[1.924s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint
+[1.937s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint
+[1.941s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.942s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.942s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.942s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.942s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.942s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.943s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/msvc
+[1.943s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/msvc
+[1.943s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/msvc
+[1.943s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/msvc
+[1.943s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.943s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config
+[1.943s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.944s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.944s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.944s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.951s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/config/gcc
+[1.952s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/main.py to main.cpython-36.pyc
+[1.952s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint/__init__.py to __init__.cpython-36.pyc
+[1.953s] running install_data
+[1.953s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[1.953s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index
+[1.954s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[1.961s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.962s] copying resource/ament_pclint -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[1.962s] running install_egg_info
+[1.962s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages/ament_pclint-0.7.12-py3.6.egg-info
+[1.962s] running install_scripts
+[1.981s] Installing ament_pclint script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/bin
+[1.982s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/install.log'
+[2.032s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pclint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed

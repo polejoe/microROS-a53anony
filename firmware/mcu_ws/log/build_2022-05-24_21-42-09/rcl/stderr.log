@@ -1,0 +1,24 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:[m[K In function '[01m[Krcl_shutdown[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:182:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Krcl_ret[m[K' [[01;35m[K-Wunused-variable[m[K]
+  182 |   rcl_ret_t [01;35m[Krcl_ret[m[K = rcl_logging_fini();
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:[m[K In function '[01m[Krcl_init_options_copy[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:83:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+   83 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:101:24:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-variable[m[K]
+  101 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function '[01m[Krcl_node_init[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:162:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  162 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:194:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kmsg[m[K' [[01;35m[K-Wunused-variable[m[K]
+  194 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K

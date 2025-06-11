@@ -1,0 +1,38 @@
+[1.519s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed
+[1.809s] running egg_info
+[1.809s] creating ../../../build/ament_lint/ament_lint.egg-info
+[1.809s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.809s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.809s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.809s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.810s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.810s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.811s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.811s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.811s] running build
+[1.811s] running build_py
+[1.812s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build
+[1.812s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib
+[1.812s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.813s] copying ament_lint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.813s] copying ament_lint/pytest_marker.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[1.820s] running install
+[1.820s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.821s]   setuptools.SetuptoolsDeprecationWarning,
+[1.821s] running install_lib
+[1.821s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint
+[1.821s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint
+[1.822s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint
+[1.822s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint/__init__.py to __init__.cpython-36.pyc
+[1.822s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-36.pyc
+[1.822s] running install_data
+[1.823s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/share/ament_lint
+[1.830s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/share/ament_index
+[1.830s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[1.830s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.831s] copying resource/ament_lint -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[1.831s] running install_egg_info
+[1.831s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages/ament_lint-0.7.12-py3.6.egg-info
+[1.831s] running install_scripts
+[1.831s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/install.log'
+[1.873s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages: mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed

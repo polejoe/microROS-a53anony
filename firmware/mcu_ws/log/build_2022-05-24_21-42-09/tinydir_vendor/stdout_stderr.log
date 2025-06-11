@@ -1,0 +1,187 @@
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-gcc
+-- Check for working C compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-g++
+-- Check for working CXX compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_SHARED_LIBS
+    THIRDPARTY
+
+
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/depend
+make[3]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake --color=
+Dependee "/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake" is newer than depender "/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+Dependee "/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+[35m[1mScanning dependencies of target tinydir-1.2.4[0m
+make[3]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/build
+make[3]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[ 12%] [34m[1mCreating directories for 'tinydir-1.2.4'[0m
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/tmp
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src
+/usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-mkdir
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'tinydir-1.2.4'[0m
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/download-tinydir-1.2.4.cmake
+-- Downloading...
+   dst='/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/cxong/tinydir/archive/1.2.4.tar.gz'
+-- [download 2% complete]
+-- [download 8% complete]
+-- [download 13% complete]
+-- [download 19% complete]
+-- [download 24% complete]
+-- [download 30% complete]
+-- [download 36% complete]
+-- [download 41% complete]
+-- [download 47% complete]
+-- [download 52% complete]
+-- [download 58% complete]
+-- [download 63% complete]
+-- [download 69% complete]
+-- [download 75% complete]
+-- [download 80% complete]
+-- [download 86% complete]
+-- [download 91% complete]
+-- [download 97% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+-- Downloading... done
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/verify-tinydir-1.2.4.cmake
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/extract-tinydir-1.2.4.cmake
+-- extracting...
+     src='/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+     dst='/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-download
+[ 37%] [34m[1mPerforming patch step for 'tinydir-1.2.4'[0m
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E copy /home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor/tinydir_cmakelists.txt /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeLists.txt
+[ 50%] [34m[1mNo update step for 'tinydir-1.2.4'[0m
+/usr/bin/cmake -E echo_append
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-patch
+/usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-update
+[ 62%] [34m[1mPerforming configure step for 'tinydir-1.2.4'[0m
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install "-DCMAKE_CXX_FLAGS=-std=c++11 -mcpu=cortex-a53 -fno-exceptions -fno-non-call-exceptions   -g -O0 -DFREERTOS -DGUEST -DBOARD_A53Anony=1 -DPLAT_A53Anony -DBUILD_RVP -DBOOT_FW_FROM_SRAM -DENABLE_MMU -DBUILD_UNITY -DBUILD_ETH -DNETWORK_UTILS -DNET_AUTOLOAD -DBUILD_DM -DBUILD_SYSM -DFOOTPRINT_TEST  -nostdinc -fno-builtin -Wall -fdata-sections -ffunction-sections" -DCMAKE_C_COMPILER=/home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-gcc -DCMAKE_CXX_COMPILER=/home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-g++ -DCMAKE_TOOLCHAIN_FILE=/home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/arm_toolchain.cmake "-GUnix Makefiles" /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-gcc
+-- Check for working C compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-g++
+-- Check for working CXX compiler: /home/zhous/ROS2/micros_ws/firmware/freertos_apps/microros_intel_A53Anony_extensions/../../toolchain/bin/aarch64-none-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-configure
+[ 75%] [34m[1mPerforming build step for 'tinydir-1.2.4'[0m
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make
+make[4]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+make[4]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-build
+[ 87%] [34m[1mPerforming install step for 'tinydir-1.2.4'[0m
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make install
+make[4]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[5]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[5]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+make[5]: Nothing to be done for 'preinstall'.
+make[5]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[36mInstall the project...[0m
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: ""
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install/include/tinydir/tinydir.h
+make[4]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-install
+[100%] [34m[1mCompleted 'tinydir-1.2.4'[0m
+/usr/bin/cmake -E make_directory /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles
+/usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4-complete
+/usr/bin/cmake -E touch /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-done
+make[3]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[100%] Built target tinydir-1.2.4
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles 0
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+make[1]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/cmake -H/home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor -B/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/depend
+make[3]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+cd /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/build
+make[3]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+make[3]: Nothing to be done for 'CMakeFiles/tinydir-1.2.4.dir/build'.
+make[3]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[100%] Built target tinydir-1.2.4
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+/usr/bin/cmake -E cmake_progress_start /home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[2]: Entering directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+make[2]: Nothing to be done for 'preinstall'.
+make[2]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[36mInstall the project...[0m
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/include
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/include/tinydir
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/include/tinydir/tinydir.h
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/package.xml
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/tinydir_vendorConfig.cmake
+-- Installing: /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/tinydir_vendor/share/tinydir_vendor/cmake/tinydir_vendorConfig-version.cmake
+make[1]: Leaving directory '/home/zhous/ROS2/micros_ws/firmware/mcu_ws/build/tinydir_vendor'

@@ -1,0 +1,42 @@
+[1.698s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_lint_cmake': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/install.log --single-version-externally-managed
+[1.944s] running egg_info
+[1.945s] creating ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info
+[1.945s] writing ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/PKG-INFO
+[1.945s] writing dependency_links to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/dependency_links.txt
+[1.946s] writing entry points to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/entry_points.txt
+[1.946s] writing requirements to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/requires.txt
+[1.946s] writing top-level names to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/top_level.txt
+[1.947s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[1.949s] reading manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[1.950s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[1.950s] running build
+[1.950s] running build_py
+[1.951s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build
+[1.951s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib
+[1.951s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[1.951s] copying ament_lint_cmake/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[1.951s] copying ament_lint_cmake/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[1.951s] copying ament_lint_cmake/cmakelint.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[1.951s] running install
+[1.952s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.952s]   setuptools.SetuptoolsDeprecationWarning,
+[1.952s] running install_lib
+[1.952s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake
+[1.952s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake
+[1.953s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/cmakelint.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake
+[1.953s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake/main.py to main.cpython-36.pyc
+[1.954s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake/__init__.py to __init__.cpython-36.pyc
+[1.954s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake/cmakelint.py to cmakelint.cpython-36.pyc
+[1.956s] running install_data
+[1.957s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/share/ament_lint_cmake
+[1.957s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/share/ament_index
+[1.957s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/share/ament_index/resource_index
+[1.957s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[1.957s] copying resource/ament_lint_cmake -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[1.957s] running install_egg_info
+[1.959s] Copying ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages/ament_lint_cmake-0.7.12-py3.6.egg-info
+[1.960s] running install_scripts
+[1.983s] Installing ament_lint_cmake script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/bin
+[1.983s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/install.log'
+[2.422s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint_cmake --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_lint_cmake/install.log --single-version-externally-managed

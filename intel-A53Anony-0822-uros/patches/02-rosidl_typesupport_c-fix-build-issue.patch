@@ -1,0 +1,77 @@
+commit d30ad3cb24f37c2041cc55244653c9f2a6d3dee4
+Author: zhous <shengyong.zhou@intel.com>
+Date:   Wed May 11 20:59:11 2022 +0800
+
+    [TEMP] ROSIDL_TYPESUPPORT_C_USE_POCO to fix hpp issue
+    
+    Signed-off-by: zhous <shengyong.zhou@intel.com>
+
+diff --git a/rosidl_typesupport_c/CMakeLists.txt b/rosidl_typesupport_c/CMakeLists.txt
+index be0f500..499d32f 100644
+--- a/rosidl_typesupport_c/CMakeLists.txt
++++ b/rosidl_typesupport_c/CMakeLists.txt
+@@ -36,7 +36,7 @@ add_library(${PROJECT_NAME}
+   src/type_support_dispatch.cpp)
+ if(Poco_FOUND)
+   target_compile_definitions(${PROJECT_NAME}
+-    PRIVATE "ROSIDL_TYPESUPPORT_C_USE_POCO")
++    PRIVATE "ROSIDL_TYPESUPPORT_C_USE_POCO___")
+ endif()
+ if(WIN32)
+   target_compile_definitions(${PROJECT_NAME}
+diff --git a/rosidl_typesupport_c/src/type_support_dispatch.cpp b/rosidl_typesupport_c/src/type_support_dispatch.cpp
+old mode 100644
+new mode 100755
+index 055aba0..55cd3b9
+--- a/rosidl_typesupport_c/src/type_support_dispatch.cpp
++++ b/rosidl_typesupport_c/src/type_support_dispatch.cpp
+@@ -14,6 +14,8 @@
+ 
+ #include "type_support_dispatch.hpp"
+ 
++#ifdef ROSIDL_TYPESUPPORT_C_USE_POCO
++
+ #include <list>
+ #include <string>
+ 
+@@ -100,3 +102,6 @@ bool is_file_exist(const char * filename)
+ }
+ 
+ }  // namespace rosidl_typesupport_c
++
++#endif
++
+diff --git a/rosidl_typesupport_c/src/type_support_dispatch.hpp b/rosidl_typesupport_c/src/type_support_dispatch.hpp
+old mode 100644
+new mode 100755
+index f1f168e..24e8642
+--- a/rosidl_typesupport_c/src/type_support_dispatch.hpp
++++ b/rosidl_typesupport_c/src/type_support_dispatch.hpp
+@@ -19,10 +19,10 @@
+ #include <cstdio>
+ #include <cstring>
+ 
++#ifdef ROSIDL_TYPESUPPORT_C_USE_POCO
+ #include <list>
+ #include <string>
+ 
+-#ifdef ROSIDL_TYPESUPPORT_C_USE_POCO
+ #include "Poco/SharedLibrary.h"
+ #endif
+ 
+@@ -32,6 +32,7 @@
+ namespace rosidl_typesupport_c
+ {
+ 
++#ifdef ROSIDL_TYPESUPPORT_C_USE_POCO
+ std::string find_library_path(const std::string & library_name);
+ 
+ std::string get_env_var(const char * env_var);
+@@ -39,6 +40,7 @@ std::string get_env_var(const char * env_var);
+ std::list<std::string> split(const std::string & value, const char delimiter);
+ 
+ bool is_file_exist(const char * filename);
++#endif
+ 
+ extern const char * typesupport_identifier;
+ 

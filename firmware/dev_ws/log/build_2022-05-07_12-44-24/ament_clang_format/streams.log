@@ -1,0 +1,43 @@
+[1.640s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed
+[2.000s] running egg_info
+[2.000s] creating ../../../build/ament_clang_format/ament_clang_format.egg-info
+[2.001s] writing ../../../build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[2.001s] writing dependency_links to ../../../build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[2.001s] writing entry points to ../../../build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[2.002s] writing requirements to ../../../build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[2.003s] writing top-level names to ../../../build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[2.003s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[2.004s] reading manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[2.007s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[2.007s] running build
+[2.007s] running build_py
+[2.007s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build
+[2.008s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib
+[2.008s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[2.009s] copying ament_clang_format/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[2.009s] copying ament_clang_format/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[2.009s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[2.009s] copying ament_clang_format/configuration/.clang-format -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[2.010s] running install
+[2.011s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.011s]   setuptools.SetuptoolsDeprecationWarning,
+[2.011s] running install_lib
+[2.011s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format
+[2.011s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format
+[2.011s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format
+[2.012s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format/configuration
+[2.012s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration/.clang-format -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format/configuration
+[2.012s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format/main.py to main.cpython-36.pyc
+[2.031s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format/__init__.py to __init__.cpython-36.pyc
+[2.032s] running install_data
+[2.032s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_clang_format
+[2.032s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index
+[2.032s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index
+[2.032s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[2.032s] copying resource/ament_clang_format -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[2.032s] running install_egg_info
+[2.033s] Copying ../../../build/ament_clang_format/ament_clang_format.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages/ament_clang_format-0.7.12-py3.6.egg-info
+[2.039s] running install_scripts
+[2.041s] Installing ament_clang_format script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/bin
+[2.041s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/install.log'
+[2.155s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_clang_format --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed

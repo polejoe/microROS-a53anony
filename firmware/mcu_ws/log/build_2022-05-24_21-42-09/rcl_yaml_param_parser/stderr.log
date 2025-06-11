@@ -1,0 +1,30 @@
+CMake Warning at /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'libyaml_vendor' exports library 'yaml' which couldn't be found
+Call Stack (most recent call first):
+  /home/zhous/ROS2/micros_ws/firmware/mcu_ws/install/libyaml_vendor/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake:38 (include)
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    THIRDPARTY
+
+
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:[m[K In function '[01m[Kget_value[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:801:12:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrtod[m[K'; did you mean '[01m[Kstrtok[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  801 |     dval = [01;35m[Kstrtod[m[K(value, &endptr);
+      |            [01;35m[K^~~~~~[m[K
+      |            [32m[Kstrtok[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:[m[K In function '[01m[Kparse_value[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:852:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kline_num[m[K' [[01;35m[K-Wunused-variable[m[K]
+  852 |   const uint32_t [01;35m[Kline_num[m[K = ((uint32_t)(event.start_mark.line) + 1U);
+      |                  [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:[m[K In function '[01m[Kparse_key[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:1038:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kline_num[m[K' [[01;35m[K-Wunused-variable[m[K]
+ 1038 |   const uint32_t [01;35m[Kline_num[m[K = ((uint32_t)(event.start_mark.line) + 1U);
+      |                  [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:[m[K In function '[01m[Kparse_events[m[K':
+[01m[K/home/zhous/ROS2/micros_ws/firmware/mcu_ws/uros/rcl/rcl_yaml_param_parser/src/parser.c:1203:12:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kline_num[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 1203 |   uint32_t [01;35m[Kline_num[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K

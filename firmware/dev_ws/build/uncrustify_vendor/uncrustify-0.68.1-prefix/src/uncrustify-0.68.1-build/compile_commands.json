@@ -1,0 +1,207 @@
+[
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_stack.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_stack.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_stack.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/args.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/args.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/args.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/backup.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/backup.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/backup.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/braces.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/braces.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/braces.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/brace_cleanup.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/brace_cleanup.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ChunkStack.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ChunkStack.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/chunk_list.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/chunk_list.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/chunk_list.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/combine.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_posix.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_posix.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_win32.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_win32.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/detect.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/detect.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/detect.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/enum_cleanup.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/enum_cleanup.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/indent.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/indent.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/indent.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/keywords.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/keywords.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/keywords.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/lang_pawn.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/lang_pawn.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/language_tools.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/language_tools.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/language_tools.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/logger.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logger.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logger.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/logmask.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logmask.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logmask.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/md5.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/md5.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/md5.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/newlines.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/newlines.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/newlines.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/option.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/option.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/option.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/options_for_QT.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/options_for_QT.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/output.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/output.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/output.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/parens.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/parens.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/parens.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/frame_list.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/frame_list.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/frame_list.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/ParseFrame.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ParseFrame.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ParseFrame.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/punctuators.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/punctuators.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/punctuators.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/semicolons.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/semicolons.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/semicolons.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/sorting.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/sorting.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/sorting.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/space.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/space.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/space.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/tokenize.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize_cleanup.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize_cleanup.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unc_text.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_text.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_text.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_tools.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_tools.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unicode.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unicode.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unicode.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/universalindentgui.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/universalindentgui.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/width.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/width.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/width.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/options.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/options.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/options.cpp"
+},
+{
+  "directory": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/option_enum.cpp.o -c /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/option_enum.cpp",
+  "file": "/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/option_enum.cpp"
+}
+]

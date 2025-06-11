@@ -1,0 +1,86 @@
+[0.998s] Invoking command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed
+[1.346s] running egg_info
+[1.347s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[1.347s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[1.347s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[1.347s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[1.347s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[1.348s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[1.350s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.353s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.355s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[1.355s] running build
+[1.355s] running build_py
+[1.356s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build
+[1.356s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib
+[1.356s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.356s] copying ament_copyright/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.356s] copying ament_copyright/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.356s] copying ament_copyright/crawler.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.357s] copying ament_copyright/pytest_marker.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.357s] copying ament_copyright/copyright_names.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.357s] copying ament_copyright/licenses.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.357s] copying ament_copyright/parser.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[1.358s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.358s] copying ament_copyright/template/apache2_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.358s] copying ament_copyright/template/bsd2_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.358s] copying ament_copyright/template/mit_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/apache2_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/gplv3_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/mit_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/bsd2_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/bsd2_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.359s] copying ament_copyright/template/lgplv3_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.360s] copying ament_copyright/template/gplv3_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.360s] copying ament_copyright/template/lgplv3_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.360s] copying ament_copyright/template/apache2_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.360s] copying ament_copyright/template/gplv3_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.360s] copying ament_copyright/template/mit_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[1.361s] running install
+[1.361s] /home/zhous/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.361s]   setuptools.SetuptoolsDeprecationWarning,
+[1.361s] running install_lib
+[1.362s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.362s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.362s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.362s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.363s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.363s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.363s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.363s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright
+[1.363s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.364s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.364s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.364s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.364s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.365s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.365s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.366s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.366s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.366s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.367s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.368s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.372s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.372s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.373s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.374s] copying /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/template
+[1.374s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/main.py to main.cpython-36.pyc
+[1.377s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/__init__.py to __init__.cpython-36.pyc
+[1.378s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/crawler.py to crawler.cpython-36.pyc
+[1.378s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-36.pyc
+[1.378s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-36.pyc
+[1.379s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/licenses.py to licenses.cpython-36.pyc
+[1.379s] byte-compiling /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright/parser.py to parser.cpython-36.pyc
+[1.380s] running install_data
+[1.380s] copying package.xml -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[1.380s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index
+[1.380s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[1.380s] creating /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.380s] copying resource/ament_copyright -> /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[1.380s] running install_egg_info
+[1.381s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages/ament_copyright-0.7.12-py3.6.egg-info
+[1.381s] running install_scripts
+[1.400s] Installing ament_copyright script to /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/bin
+[1.401s] writing list of installed files to '/home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/install.log'
+[1.459s] Invoked command in '/home/zhous/ROS2/micros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint PATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.6/site-packages:/home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_lint/lib/python3.6/site-packages mytag_args= *.h -o -name *.c -o -name *.inc -o -name *.hpp -o -name *.cpp -o -name *.S -o -name *.s /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/build install --prefix /home/zhous/ROS2/micros_ws/firmware/dev_ws/install/ament_copyright --record /home/zhous/ROS2/micros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed

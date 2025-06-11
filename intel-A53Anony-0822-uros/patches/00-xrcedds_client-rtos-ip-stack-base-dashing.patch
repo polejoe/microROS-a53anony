@@ -1,0 +1,973 @@
+commit 8c3ba387c12b6991539a2eb4328bd93fc53acf2c
+Author: zhous <shengyong.zhou@intel.com>
+Date:   Wed May 11 16:26:08 2022 +0800
+
+    [TEMP] add FreeRTOS_Plus_TCP stack support over dashing
+    
+    Signed-off-by: zhous <shengyong.zhou@intel.com>
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a68984e..9d31a45 100755
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -42,8 +42,34 @@ if((CMAKE_SYSTEM_NAME STREQUAL "") AND (CMAKE_HOST_SYSTEM_NAME STREQUAL "Linux")
+ endif()
+ 
+ option(UCLIENT_BIG_ENDIANNESS "Set the machine endianness to big endianness (by default is little endianness)." OFF)
+-
+-set(UCLIENT_CONFIG "${CMAKE_CURRENT_SOURCE_DIR}/client.config" CACHE PATH "Configuration client file.")
++option(UCLIENT_PROFILE_DISCOVERY "Enable discovery profile." ON)
++option(UCLIENT_PROFILE_UDP "Enable UDP transport." ON)
++option(UCLIENT_PROFILE_TCP "Enable TCP transport." OFF)
++option(UCLIENT_PROFILE_CAN "Enable CAN FD transport." OFF)
++option(UCLIENT_PROFILE_SERIAL "Enable Serial transport." OFF)
++option(UCLIENT_PROFILE_STREAM_FRAMING "Enable stream framing protocol." OFF)
++set(UCLIENT_MAX_OUTPUT_BEST_EFFORT_STREAMS 1 CACHE STRING "Set the maximum number of output best-effort streams for session.")
++set(UCLIENT_MAX_OUTPUT_RELIABLE_STREAMS 1 CACHE STRING "Set the maximum number of output reliable streams for session.")
++set(UCLIENT_MAX_INPUT_BEST_EFFORT_STREAMS 1 CACHE STRING "Set the maximum number of input best-effort streams for session.")
++set(UCLIENT_MAX_INPUT_RELIABLE_STREAMS 1 CACHE STRING "Set the maximum number of input reliable streams for session.")
++set(UCLIENT_MAX_SESSION_CONNECTION_ATTEMPTS 10 CACHE STRING "Set the number of connection attemps.")
++set(UCLIENT_MIN_SESSION_CONNECTION_INTERVAL 1000 CACHE STRING "Set the connection interval in milliseconds.")
++set(UCLIENT_MIN_HEARTBEAT_TIME_INTERVAL 100 CACHE STRING "Set the time interval between heartbeats in milliseconds.")
++set(UCLIENT_UDP_TRANSPORT_MTU 512 CACHE STRING "Set the UDP transport MTU.")
++set(UCLIENT_TCP_TRANSPORT_MTU 512 CACHE STRING "Set the TCP transport MTU.")
++set(UCLIENT_SERIAL_TRANSPORT_MTU 512 CACHE STRING "Set the Serial transport MTU.")
++
++option(UCLIENT_PROFILE_CUSTOM_TRANSPORT "Enable Custom transport." OFF)
++set(UCLIENT_CUSTOM_TRANSPORT_MTU 512 CACHE STRING "Set the Custom transport MTU.")
++
++option(UCLIENT_PROFILE_MULTITHREAD "Enable multithread support." OFF)
++option(UCLIENT_PROFILE_SHARED_MEMORY "Enable shared memory transport support." OFF)
++option(UCLIENT_PROFILE_MATCHING "Enable QoS matching support." OFF)
++set(UCLIENT_SHARED_MEMORY_MAX_ENTITIES 4 CACHE STRING "Max number of entities involved in shared memory.")
++set(UCLIENT_SHARED_MEMORY_STATIC_MEM_SIZE 10 CACHE STRING "Max number data buffers stored in shared memory")
++
++# Off-standard features and tweaks
++option(UCLIENT_TWEAK_XRCE_WRITE_LIMIT "This feature uses a tweak to allow XRCE WRITE DATA submessages grater than 64 kB." ON)
+ 
+ ###############################################################################
+ # Dependencies
+@@ -78,6 +104,7 @@ endif()
+ ###############################################################################
+ # Client configuration options
+ ###############################################################################
++set(UCLIENT_CONFIG "${CMAKE_CURRENT_SOURCE_DIR}/client.config" CACHE PATH "Optional configuration client file.")
+ # Load configuration file.
+ if(EXISTS ${UCLIENT_CONFIG})
+     configure_file(${UCLIENT_CONFIG} ${PROJECT_SOURCE_DIR}/CMakeCache.txt COPYONLY)
+@@ -119,6 +146,10 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Generic")
+         set(UCLIENT_PLATFORM_NUTTX ON)
+     elseif(PLATFORM_NAME STREQUAL "LwIP")
+         set(UCLIENT_PLATFORM_POSIX_NOPOLL ON)
++    elseif(PLATFORM_NAME STREQUAL "FreeRTOS_Plus_TCP")
++        set(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP ON)
++    elseif(PLATFORM_NAME STREQUAL "RTEMS_BSD_NET")
++        set(UCLIENT_PLATFORM_RTEMS_BSD_NET ON)
+     endif()
+ endif()
+ 
+@@ -131,6 +162,77 @@ option(UCLIENT_EXTERNAL_TCP "Enable external serial transport." OFF)
+ option(UCLIENT_EXTERNAL_UDP "Enable external serial transport." OFF)
+ option(UCLIENT_EXTERNAL_SERIAL "Enable external serial transport." OFF)
+ 
++
++# Transport sources.
++set(_transport_src)
++
++if(UCLIENT_PROFILE_UDP)
++    list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport.c)
++    if(UCLIENT_PLATFORM_POSIX)
++        list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport_posix.c)
++    elseif(UCLIENT_PLATFORM_POSIX_NOPOLL)
++        list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c)
++    elseif(UCLIENT_PLATFORM_WINDOWS)
++        list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport_windows.c)
++    elseif(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++        list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.c)
++    elseif(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++        list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport_rtems_bsd_net.c)
++    endif()
++endif()
++
++if(UCLIENT_PROFILE_TCP)
++    list(APPEND _transport_src src/c/profile/transport/ip/tcp/tcp_transport.c)
++    if(UCLIENT_PLATFORM_POSIX)
++        list(APPEND _transport_src src/c/profile/transport/ip/tcp/tcp_transport_posix.c)
++    elseif(UCLIENT_PLATFORM_WINDOWS)
++        list(APPEND _transport_src src/c/profile/transport/ip/tcp/tcp_transport_windows.c)
++    elseif(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++        list(APPEND _transport_src src/c/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.c)
++    elseif(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++        list(APPEND _transport_src src/c/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.c)
++    endif()
++endif()
++
++
++if(UCLIENT_PROFILE_DISCOVERY OR UCLIENT_PROFILE_UDP OR UCLIENT_PROFILE_TCP)
++    if(UCLIENT_PLATFORM_POSIX)
++        list(APPEND _transport_src src/c/profile/transport/ip/ip_posix.c)
++    elseif(UCLIENT_PLATFORM_POSIX_NOPOLL)
++        list(APPEND _transport_src src/c/profile/transport/ip/ip_posix.c)
++    elseif(UCLIENT_PLATFORM_WINDOWS)
++        list(APPEND _transport_src src/c/profile/transport/ip/ip_windows.c)
++    elseif(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++        list(APPEND _transport_src src/c/profile/transport/ip/ip_freertos_plus_tcp.c)
++    elseif(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++        list(APPEND _transport_src src/c/profile/transport/ip/ip_rtems_bsd_net.c)
++    endif()
++endif()
++
++if(UCLIENT_PROFILE_DISCOVERY)
++    list(APPEND _transport_src src/c/profile/discovery/discovery.c)
++    list(APPEND _transport_src src/c/profile/transport/ip/udp/udp_transport.c)
++    if(UCLIENT_PLATFORM_POSIX)
++        list(APPEND _transport_src src/c/profile/discovery/transport/udp_transport_datagram_posix.c)
++    elseif(UCLIENT_PLATFORM_POSIX_NOPOLL)
++        list(APPEND _transport_src src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c)
++    elseif(UCLIENT_PLATFORM_WINDOWS)
++        list(APPEND _transport_src src/c/profile/discovery/transport/udp_transport_datagram_windows.c)
++    elseif(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++        list(APPEND _transport_src src/c/profile/discovery/transport/udp_transport_datagram_freertos_plus_tcp.c)
++    elseif(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++        list(APPEND _transport_src src/c/profile/discovery/transport/udp_transport_datagram_rtems_bsd_net.c)
++    endif()
++endif()
++
++if(UCLIENT_PROFILE_CUSTOM_TRANSPORT)
++    list(APPEND _transport_src src/c/profile/transport/custom/custom_transport.c)
++endif()
++
++if(UCLIENT_PROFILE_SHARED_MEMORY)
++    set(UCLIENT_PROFILE_MATCHING ON)
++endif()
++
+ # Other sources
+ set(SRCS
+     src/c/core/session/stream/input_best_effort_stream.c
+@@ -154,25 +256,7 @@ set(SRCS
+     src/c/core/session/read_access.c
+     src/c/core/session/write_access.c
+     $<$<OR:$<BOOL:${UCLIENT_VERBOSE_MESSAGE}>,$<BOOL:${UCLIENT_VERBOSE_SERIALIZATION}>>:src/c/core/log/log.c>
+-    $<$<BOOL:${PROFILE_DISCOVERY}>:src/c/profile/discovery/discovery.c>
+-    $<$<BOOL:${PROFILE_DISCOVERY}>:src/c/profile/transport/ip/udp/udp_transport.c>
+-    $<$<AND:$<BOOL:${PROFILE_DISCOVERY}>,$<BOOL:${UCLIENT_PLATFORM_POSIX}>>:src/c/profile/discovery/transport/udp_transport_datagram_posix.c>
+-    $<$<AND:$<BOOL:${PROFILE_DISCOVERY}>,$<PLATFORM_ID:Windows>>:src/c/profile/discovery/transport/udp_transport_datagram_windows.c>
+-    $<$<BOOL:${PROFILE_UDP_TRANSPORT}>:src/c/profile/transport/ip/udp/udp_transport.c>
+-    $<$<AND:$<BOOL:${PROFILE_UDP_TRANSPORT}>,$<BOOL:${UCLIENT_PLATFORM_POSIX}>>:src/c/profile/transport/ip/udp/udp_transport_posix.c>
+-    $<$<AND:$<BOOL:${PROFILE_UDP_TRANSPORT}>,$<BOOL:${UCLIENT_PLATFORM_POSIX_NOPOLL}>>:src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c>
+-    $<$<AND:$<BOOL:${PROFILE_UDP_TRANSPORT}>,$<PLATFORM_ID:Windows>>:src/c/profile/transport/ip/udp/udp_transport_windows.c>
+-    $<$<BOOL:${PROFILE_TCP_TRANSPORT}>:src/c/profile/transport/ip/tcp/tcp_transport.c>
+-    $<$<AND:$<BOOL:${PROFILE_TCP_TRANSPORT}>,$<BOOL:${UCLIENT_PLATFORM_POSIX}>>:src/c/profile/transport/ip/tcp/tcp_transport_posix.c>
+-    $<$<AND:$<BOOL:${PROFILE_TCP_TRANSPORT}>,$<PLATFORM_ID:Windows>>:src/c/profile/transport/ip/tcp/tcp_transport_windows.c>
+-    $<$<AND:$<BOOL:${PROFILE_SERIAL_TRANSPORT}>,$<OR:$<PLATFORM_ID:Linux>,$<PLATFORM_ID:Generic>>>:src/c/profile/transport/serial/serial_transport.c>
+-    $<$<AND:$<BOOL:${PROFILE_SERIAL_TRANSPORT}>,$<OR:$<PLATFORM_ID:Linux>,$<PLATFORM_ID:Generic>>>:src/c/profile/transport/serial/serial_protocol.c>
+-    $<$<AND:$<BOOL:${PROFILE_SERIAL_TRANSPORT}>,$<BOOL:${UCLIENT_PLATFORM_POSIX}>>:src/c/profile/transport/serial/serial_transport_posix.c>
+-    $<$<BOOL:${UCLIENT_EXTERNAL_TCP}>:src/c/profile/transport/ip/tcp/tcp_transport_external.c>
+-    $<$<BOOL:${UCLIENT_EXTERNAL_UDP}>:src/c/profile/transport/ip/udp/udp_transport_external.c>
+-    $<$<BOOL:${UCLIENT_EXTERNAL_SERIAL}>:src/c/profile/transport/serial/serial_transport_external.c>
+-    $<$<OR:$<BOOL:${UCLIENT_PLATFORM_POSIX}>,$<BOOL:${UCLIENT_PLATFORM_POSIX_NOPOLL}>>:src/c/profile/transport/ip/ip_posix.c>
+-    $<$<BOOL:$<PLATFORM_ID:Windows>>:src/c/profile/transport/ip/ip_windows.c>
++    ${_transport_src}
+     )
+ 
+ ###############################################################################
+diff --git a/include/uxr/client/config.h.in b/include/uxr/client/config.h.in
+old mode 100644
+new mode 100755
+index 2bec7e7..66819ad
+--- a/include/uxr/client/config.h.in
++++ b/include/uxr/client/config.h.in
+@@ -28,6 +28,9 @@
+ 
+ #cmakedefine UCLIENT_PLATFORM_LINUX
+ #cmakedefine UCLIENT_PLATFORM_WINDOWS
++#cmakedefine UCLIENT_PLATFORM_FREERTOS_PLUS_TCP
++#cmakedefine UCLIENT_PLATFORM_RTEMS_BSD_NET
++
+ #cmakedefine UCLIENT_PLATFORM_NUTTX
+ #cmakedefine UCLIENT_PLATFORM_POSIX_NOPOLL
+ 
+diff --git a/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h b/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+new file mode 100755
+index 0000000..623b94a
+--- /dev/null
++++ b/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+@@ -0,0 +1,40 @@
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#ifndef _UXR_CLIENT_TCP_TRANSPORT_FREERTOS_H_
++#define _UXR_CLIENT_TCP_TRANSPORT_FREERTOS_H_
++
++#ifdef __cplusplus
++extern "C"
++{
++#endif // ifdef __cplusplus
++
++#include "FreeRTOS.h"
++#include "list.h"
++#include "FreeRTOS_IP.h"
++#include "FreeRTOS_Sockets.h"
++
++typedef struct uxrTCPPlatform
++{
++    struct freertos_sockaddr remote_addr;
++    SocketSet_t poll_fd;
++    Socket_t fd;
++    uint8_t use_ethernet;
++} uxrTCPPlatform;
++
++#ifdef __cplusplus
++}
++#endif // ifdef __cplusplus
++
++#endif //_UXR_CLIENT_TCP_TRANSPORT_FREERTOS_H_
+diff --git a/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h b/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+new file mode 100755
+index 0000000..24a6a47
+--- /dev/null
++++ b/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+@@ -0,0 +1,40 @@
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#ifndef _UXR_CLIENT_TCP_TRANSPORT_RTEMS_H_
++#define _UXR_CLIENT_TCP_TRANSPORT_RTEMS_H_
++
++#ifdef __cplusplus
++extern "C"
++{
++#endif // ifdef __cplusplus
++
++#include "arpa/inet.h"
++#include "sys/socket.h"
++#include "sys/select.h"
++#include "netinet/in.h"
++
++
++typedef struct uxrTCPPlatform
++{
++    struct sockaddr_in remote_addr;
++    struct fd_set select_fd;
++    int fd;
++} uxrTCPPlatform;
++
++#ifdef __cplusplus
++}
++#endif // ifdef __cplusplus
++
++#endif //_UXR_CLIENT_TCP_TRANSPORT_RTEMS_H_
+diff --git a/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h b/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+new file mode 100755
+index 0000000..a923e1a
+--- /dev/null
++++ b/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+@@ -0,0 +1,41 @@
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#ifndef _UXR_CLIENT_UDP_TRANSPORT_FREERTOS_H_
++#define _UXR_CLIENT_UDP_TRANSPORT_FREERTOS_H_
++
++#ifdef __cplusplus
++extern "C"
++{
++#endif // ifdef __cplusplus
++
++#include "FreeRTOS.h"
++#include "list.h"
++#include "FreeRTOS_IP.h"
++#include "FreeRTOS_Sockets.h"
++
++typedef struct uxrUDPPlatform
++{
++    struct freertos_sockaddr remote_addr;
++    SocketSet_t poll_fd;
++    Socket_t fd;
++    uint8_t use_ethernet;
++
++} uxrUDPPlatform;
++
++#ifdef __cplusplus
++}
++#endif // ifdef __cplusplus
++
++#endif //_UXR_CLIENT_UDP_TRANSPORT_FREERTOS_H_
+diff --git a/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h b/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+new file mode 100755
+index 0000000..19a3270
+--- /dev/null
++++ b/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+@@ -0,0 +1,39 @@
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#ifndef _UXR_CLIENT_UDP_TRANSPORT_RTEMS_H_
++#define _UXR_CLIENT_UDP_TRANSPORT_RTEMS_H_
++
++#ifdef __cplusplus
++extern "C"
++{
++#endif // ifdef __cplusplus
++
++#include "arpa/inet.h"
++#include "sys/socket.h"
++#include "sys/select.h"
++#include "netinet/in.h"
++
++typedef struct uxrUDPPlatform
++{
++    struct sockaddr_in remote_addr;
++    struct fd_set select_fd;
++    int fd;
++} uxrUDPPlatform;
++
++#ifdef __cplusplus
++}
++#endif // ifdef __cplusplus
++
++#endif //_UXR_CLIENT_UDP_TRANSPORT_RTEMS_H_
+diff --git a/include/uxr/client/transport.h b/include/uxr/client/transport.h
+old mode 100644
+new mode 100755
+index f006416..8427b36
+--- a/include/uxr/client/transport.h
++++ b/include/uxr/client/transport.h
+@@ -27,6 +27,10 @@
+ #include <uxr/client/profile/transport/ip/udp/udp_transport_posix.h>
+ #elif defined(UCLIENT_PLATFORM_WINDOWS)
+ #include <uxr/client/profile/transport/ip/udp/udp_transport_windows.h>
++#elif defined(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++#include <uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h>
++#elif defined(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++#include <uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h>
+ #endif
+ #endif //PROFILE_UDP_TRANSPORT
+ 
+diff --git a/src/c/profile/discovery/transport/udp_transport_datagram_freertos_plus_tcp.c b/src/c/profile/discovery/transport/udp_transport_datagram_freertos_plus_tcp.c
+new file mode 100755
+index 0000000..339a3e3
+--- /dev/null
++++ b/src/c/profile/discovery/transport/udp_transport_datagram_freertos_plus_tcp.c
+@@ -0,0 +1,123 @@
++// Copyright 2018 eSOL Co.,Ltd.
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#include "udp_transport_datagram_internal.h"
++#include "FreeRTOS.h"
++#include "FreeRTOS_Sockets.h"
++
++#include <unistd.h>
++#include <errno.h>
++#include <string.h>
++
++bool uxr_init_udp_transport_datagram(
++        uxrUDPTransportDatagram* transport)
++{
++    bool rv = false;
++
++    transport->fd = FreeRTOS_socket(FREERTOS_AF_INET, FREERTOS_SOCK_DGRAM, FREERTOS_IPPROTO_UDP);
++
++    if (FREERTOS_INVALID_SOCKET != transport->fd)
++    {
++        transport->poll_fd = FreeRTOS_CreateSocketSet();
++
++        if (NULL != transport->poll_fd)
++        {
++            /* FreeRTOS_FD_SET() is a void function. */
++            FreeRTOS_FD_SET(transport->fd, transport->poll_fd, eSELECT_READ);
++            rv = true;
++        }
++    }
++
++    return rv;
++}
++
++bool uxr_close_udp_transport_datagram(
++        uxrUDPTransportDatagram* transport)
++{
++    /* FreeRTOS_closesocket() always returns 0. */
++    (void) FreeRTOS_closesocket(transport->fd);
++
++    if (NULL != transport->poll_fd)
++    {
++        (void) FreeRTOS_DeleteSocketSet(transport->poll_fd);
++    }
++
++    return true;
++}
++
++bool uxr_udp_send_datagram_to(
++        uxrUDPTransportDatagram* transport,
++        const uint8_t* buf,
++        size_t len,
++        const TransportLocator* locator)
++{
++    bool rv = true;
++
++    struct freertos_sockaddr remote_addr;
++    memcpy(&remote_addr.sin_addr, &locator->_.medium_locator.address, sizeof(locator->_.medium_locator.address));
++    if (0 != remote_addr.sin_addr)
++    {
++        remote_addr.sin_family = FREERTOS_AF_INET;
++        remote_addr.sin_port = FreeRTOS_htons(locator->_.medium_locator.locator_port);
++
++        int32_t bytes_sent = FreeRTOS_sendto(transport->fd, (void*)buf, len, 0,
++                        (struct freertos_sockaddr*)&remote_addr, sizeof(remote_addr));
++
++        /* FreeRTOS_sendto() returns 0 if an error or timeout occurred. */
++        if (0 >= bytes_sent)
++        {
++            rv = false;
++        }
++    }
++
++    return rv;
++}
++
++bool uxr_udp_recv_datagram(
++        uxrUDPTransportDatagram* transport,
++        uint8_t** buf,
++        size_t* len,
++        int timeout)
++{
++    bool rv = false;
++
++    BaseType_t poll_rv = FreeRTOS_select(transport->poll_fd, pdMS_TO_TICKS(timeout));
++    if (0 < poll_rv)
++    {
++        int32_t bytes_received = FreeRTOS_recvfrom(transport->fd, (void*)transport->buffer, sizeof(transport->buffer),
++                        0, NULL, NULL);
++        if (0 < bytes_received)
++        {
++            *len = (size_t)bytes_received;
++            *buf = transport->buffer;
++            rv = true;
++        }
++    }
++    else if (0 == poll_rv)
++    {
++        errno = ETIME;
++    }
++
++    return rv;
++}
++
++void uxr_bytes_to_ip(
++        const uint8_t* bytes,
++        char* ip)
++{
++    uint32_t addr;
++    addr = (uint32_t)(*bytes + (*(bytes + 1) << 8) + (*(bytes + 2) << 16) + (*(bytes + 3) << 24));
++    FreeRTOS_inet_ntoa(addr, ip);
++}
+diff --git a/src/c/profile/discovery/transport/udp_transport_datagram_internal.h b/src/c/profile/discovery/transport/udp_transport_datagram_internal.h
+old mode 100644
+new mode 100755
+index 257ec1b..9816d1c
+--- a/src/c/profile/discovery/transport/udp_transport_datagram_internal.h
++++ b/src/c/profile/discovery/transport/udp_transport_datagram_internal.h
+@@ -34,7 +34,16 @@ extern "C"
+ #include <poll.h>
+ #elif defined(UCLIENT_PLATFORM_WINDOWS)
+ #include <winsock2.h>
+-#endif
++#elif defined(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++#include "FreeRTOS.h"
++#include "list.h"
++#include "FreeRTOS_IP.h"
++#include "FreeRTOS_Sockets.h"
++#elif defined(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++#include <sys/types.h>
++#include <sys/select.h>
++#include <sys/socket.h>
++#endif // if defined(UCLIENT_PLATFORM_POSIX)
+ 
+ 
+ // TODO (julibert): move this to CMake flag.
+@@ -47,7 +56,13 @@ typedef struct uxrUDPTransportDatagram
+     struct pollfd poll_fd;
+ #elif defined(UCLIENT_PLATFORM_WINDOWS)
+     WSAPOLLFD poll_fd;
+-#endif
++#elif defined(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++    SocketSet_t poll_fd;
++    Socket_t fd;
++#elif defined(UCLIENT_PLATFORM_RTEMS_BSD_NET)
++    struct fd_set select_fd;
++    int fd;
++#endif // if defined(UCLIENT_PLATFORM_POSIX)
+ 
+ } uxrUDPTransportDatagram;
+ 
+diff --git a/src/c/profile/transport/ip/ip_freertos_plus_tcp.c b/src/c/profile/transport/ip/ip_freertos_plus_tcp.c
+new file mode 100755
+index 0000000..013d5b4
+--- /dev/null
++++ b/src/c/profile/transport/ip/ip_freertos_plus_tcp.c
+@@ -0,0 +1,70 @@
++// Copyright 2017-present Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#include <uxr/client/profile/transport/ip/ip.h>
++#include <uxr/client/config.h>
++
++#include "FreeRTOS.h"
++#include "FreeRTOS_Sockets.h"
++
++bool uxr_ip_to_locator(
++        char const* ip,
++        uint16_t port,
++        uxrIpProtocol ip_protocol,
++        TransportLocator* locator)
++{
++    bool result = false;
++    switch (ip_protocol)
++    {
++        case UXR_IPv4:
++            locator->format = ADDRESS_FORMAT_MEDIUM;
++            locator->_.medium_locator.locator_port = port;
++            uint32_t addr = FreeRTOS_inet_addr(ip);
++            memcpy(&locator->_.medium_locator.address, &addr, sizeof(locator->_.medium_locator.address));
++            result = locator->_.medium_locator.address != 0;
++            break;
++        case UXR_IPv6:
++            break;
++        default:
++            break;
++    }
++    return result;
++}
++
++bool uxr_locator_to_ip(
++        TransportLocator const* locator,
++        char* ip,
++        size_t size,
++        uint16_t* port,
++        uxrIpProtocol* ip_protocol)
++{
++    bool result = false;
++    (void)size;
++    switch (locator->format)
++    {
++        case ADDRESS_FORMAT_MEDIUM:
++            *port = locator->_.medium_locator.locator_port;
++            *ip_protocol = UXR_IPv4;
++            uint32_t addr;
++            memcpy(&addr, &locator->_.medium_locator.address, sizeof(locator->_.medium_locator.address));
++            FreeRTOS_inet_ntoa(addr, ip);
++            result = true;
++            break;
++        case ADDRESS_FORMAT_LARGE:
++            break;
++        default:
++            break;
++    }
++    return result;
++}
+\ No newline at end of file
+diff --git a/src/c/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.c b/src/c/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.c
+new file mode 100755
+index 0000000..db3ad04
+--- /dev/null
++++ b/src/c/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.c
+@@ -0,0 +1,153 @@
++// Copyright 2018 eSOL Co.,Ltd.
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#include <uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h>
++#include "tcp_transport_internal.h"
++
++#include <unistd.h>
++#include <string.h>
++#include <errno.h>
++
++bool uxr_init_tcp_platform(
++        struct uxrTCPPlatform* platform,
++        uxrIpProtocol ip_protocol,
++        const char* ip,
++        const char* port)
++{
++    bool rv = false;
++    uint16_t iport;
++
++    (void) ip_protocol;
++    iport = (uint16_t)atoi(port);
++
++    /* Socket initialization. */
++    platform->fd = FreeRTOS_socket(FREERTOS_AF_INET, FREERTOS_SOCK_STREAM, FREERTOS_IPPROTO_TCP);
++    if (FREERTOS_INVALID_SOCKET != platform->fd)
++    {
++        /* Remote IP setup. */
++        platform->remote_addr.sin_family = FREERTOS_AF_INET;
++        platform->remote_addr.sin_port = FreeRTOS_htons(iport);
++        platform->remote_addr.sin_addr = FreeRTOS_inet_addr(ip);
++
++        /* Poll setup. */
++        platform->poll_fd = FreeRTOS_CreateSocketSet();
++        if (NULL != platform->poll_fd)
++        {
++            /* FreeRTOS_FD_SET() is a void function. */
++            FreeRTOS_FD_SET(platform->fd, platform->poll_fd, eSELECT_READ);
++            rv = true;
++        }
++
++        /* Server connection. */
++        if (rv)
++        {
++            BaseType_t connected = FreeRTOS_connect(platform->fd,
++                            &platform->remote_addr,
++                            sizeof(platform->remote_addr));
++            rv = (0 == connected);
++        }
++        else
++        {
++            rv = false;
++        }
++    }
++
++    return rv;
++}
++
++bool uxr_close_tcp_platform(
++        struct uxrTCPPlatform* platform)
++{
++    (void) FreeRTOS_shutdown(platform->fd, FREERTOS_SHUT_RDWR);
++
++    /* FreeRTOS_closesocket() must be called even if FreeRTOS_shutdown() returns error.
++     * FreeRTOS_closesocket() always returns 0. */
++    (void) FreeRTOS_closesocket(platform->fd);
++
++    if (NULL != platform->poll_fd)
++    {
++        (void) FreeRTOS_DeleteSocketSet(platform->poll_fd);
++    }
++
++    return true;
++}
++
++size_t uxr_write_tcp_data_platform(
++        struct uxrTCPPlatform* platform,
++        const uint8_t* buf,
++        size_t len,
++        uint8_t* errcode)
++{
++    size_t rv = 0;
++
++    BaseType_t bytes_sent = FreeRTOS_send(platform->fd, (void*)buf, len, 0);
++
++    /* FreeRTOS_send() returns the number of bytes queued for sending.
++     * If an error or timeout occurred, FreeRTOS_send() returns a negative value. */
++    if (0 <= bytes_sent)
++    {
++        rv = (size_t)bytes_sent;
++        *errcode = 0;
++    }
++    else
++    {
++        *errcode = 1;
++    }
++
++    return rv;
++}
++
++size_t uxr_read_tcp_data_platform(
++        struct uxrTCPPlatform* platform,
++        uint8_t* buf,
++        size_t len,
++        int timeout,
++        uint8_t* errcode)
++{
++    size_t rv = 0;
++
++    BaseType_t poll_rv = FreeRTOS_select(platform->poll_fd, pdMS_TO_TICKS(timeout));
++    if (0 < poll_rv)
++    {
++        BaseType_t bytes_received = FreeRTOS_recv(platform->fd, (void*)buf, len, 0);
++        if (0 <= bytes_received)
++        {
++            rv = (size_t)bytes_received;
++            *errcode = 0;
++        }
++        else
++        {
++            *errcode = 1;
++        }
++    }
++    else
++    {
++        *errcode = (0 == poll_rv) ? 0 : 1;
++    }
++
++    return rv;
++}
++
++void uxr_disconnect_tcp_platform(
++        struct uxrTCPPlatform* platform)
++{
++    (void) FreeRTOS_shutdown(platform->fd, FREERTOS_SHUT_RDWR);
++
++    /* FreeRTOS_closesocket() must be called even if FreeRTOS_shutdown() returns error.
++     * FreeRTOS_closesocket() always returns 0. */
++    (void) FreeRTOS_closesocket(platform->fd);
++    platform->fd = FREERTOS_INVALID_SOCKET;
++    platform->poll_fd = NULL;
++}
+diff --git a/src/c/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.c b/src/c/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.c
+new file mode 100755
+index 0000000..d08f2db
+--- /dev/null
++++ b/src/c/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.c
+@@ -0,0 +1,126 @@
++// Copyright 2018 eSOL Co.,Ltd.
++// Copyright 2018 Proyectos y Sistemas de Mantenimiento SL (eProsima).
++//
++// Licensed under the Apache License, Version 2.0 (the "License");
++// you may not use this file except in compliance with the License.
++// You may obtain a copy of the License at
++//
++//     http://www.apache.org/licenses/LICENSE-2.0
++//
++// Unless required by applicable law or agreed to in writing, software
++// distributed under the License is distributed on an "AS IS" BASIS,
++// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++// See the License for the specific language governing permissions and
++// limitations under the License.
++
++#include <uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h>
++#include "udp_transport_internal.h"
++#include "FreeRTOS_Sockets.h"
++
++#include <unistd.h>
++#include <string.h>
++#include <errno.h>
++
++bool uxr_init_udp_platform(
++        uxrUDPPlatform* platform,
++        uxrIpProtocol ip_protocol,
++        const char* ip,
++        const char* port)
++{
++    bool rv = false;
++    uint16_t iport;
++
++    (void) ip_protocol;
++    iport = (uint16_t)atoi(port);
++
++    /* Socket initialization */
++    platform->fd = FreeRTOS_socket(FREERTOS_AF_INET, FREERTOS_SOCK_DGRAM, FREERTOS_IPPROTO_UDP);
++    if (FREERTOS_INVALID_SOCKET != platform->fd)
++    {
++        /* Remote IP setup. */
++        platform->remote_addr.sin_family = FREERTOS_AF_INET;
++        platform->remote_addr.sin_port = FreeRTOS_htons(iport);
++        platform->remote_addr.sin_addr = FreeRTOS_inet_addr(ip);
++
++        /* Poll setup. */
++        platform->poll_fd = FreeRTOS_CreateSocketSet();
++        if (NULL != platform->poll_fd)
++        {
++            /* FreeRTOS_FD_SET() is a void function. */
++            FreeRTOS_FD_SET(platform->fd, platform->poll_fd, eSELECT_READ);
++            rv = true;
++        }
++    }
++
++    return rv;
++}
++
++bool uxr_close_udp_platform(
++        uxrUDPPlatform* platform)
++{
++    /* FreeRTOS_closesocket() always returns 0. */
++    (void) FreeRTOS_closesocket(platform->fd);
++
++    if (NULL != platform->poll_fd)
++    {
++        (void) FreeRTOS_DeleteSocketSet(platform->poll_fd);
++    }
++
++    return true;
++}
++
++size_t uxr_write_udp_data_platform(
++        uxrUDPPlatform* platform,
++        const uint8_t* buf,
++        size_t len,
++        uint8_t* errcode)
++{
++    size_t rv = 0;
++
++    int32_t bytes_sent = FreeRTOS_sendto(platform->fd, (const void*)buf, len, 0,
++                    &platform->remote_addr, sizeof(platform->remote_addr));
++
++    /* FreeRTOS_sendto() returns 0 if an error or timeout occurred. */
++    if (0 < bytes_sent)
++    {
++        rv = (size_t)bytes_sent;
++        *errcode = 0;
++    }
++    else
++    {
++        *errcode = 1;
++    }
++
++    return rv;
++}
++
++size_t uxr_read_udp_data_platform(
++        uxrUDPPlatform* platform,
++        uint8_t* buf,
++        size_t len,
++        int timeout,
++        uint8_t* errcode)
++{
++    size_t rv = 0;
++
++    BaseType_t poll_rv = FreeRTOS_select(platform->poll_fd, pdMS_TO_TICKS(timeout));
++    if (0 < poll_rv)
++    {
++        int32_t bytes_received = FreeRTOS_recvfrom(platform->fd, (void*)buf, len, 0, NULL, NULL);
++        if (0 <= bytes_received)
++        {
++            rv = (size_t)bytes_received;
++            *errcode = 0;
++        }
++        else
++        {
++            *errcode = 1;
++        }
++    }
++    else
++    {
++        *errcode = (0 == poll_rv) ? 0 : 1;
++    }
++
++    return rv;
++}
+diff --git a/src/c/util/time.c b/src/c/util/time.c
+old mode 100644
+new mode 100755
+index 0d071ba..90bf8d2
+--- a/src/c/util/time.c
++++ b/src/c/util/time.c
+@@ -1,9 +1,13 @@
+ #include <uxr/client/util/time.h>
++#include <uxr/client/config.h>
+ #include <time.h>
+ 
+ #ifdef WIN32
+ #include <Windows.h>
+-#endif
++#elif defined(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++#include "FreeRTOS.h"
++#include "task.h"
++#endif /* ifdef WIN32 */
+ 
+ //==================================================================
+ //                             PUBLIC
+@@ -28,6 +32,25 @@ int64_t uxr_nanos(void)
+     uint64_t current_time = (((uint64_t) ft.dwHighDateTime) << 32) + ft.dwLowDateTime;
+ 
+     return (current_time - epoch_time) * 100;
++#elif defined(UCLIENT_PLATFORM_FREERTOS_PLUS_TCP)
++    TimeOut_t tick_count;
++
++    /* Get the current tick count. */
++    vTaskSetTimeOutState(&tick_count);
++
++    /* Pack the current tick count in int64_t. */
++    int64_t total_tick = (int64_t) tick_count.xOverflowCount;
++#if ( configUSE_16_BIT_TICKS == 1 )    /* Use 16-bit tick type. */
++    total_tick <<= 16;
++#else  //( configUSE_16_BIT_TICKS == 1 ) /* Use 32-bit tick type. */
++    total_tick <<= 32;
++#endif // ( configUSE_16_BIT_TICKS == 1 )
++    total_tick |= (int64_t) tick_count.xTimeOnEntering;
++    return (( total_tick / (int64_t) portTICK_PERIOD_MS ) * 1000000 );
++#elif defined(UCLIENT_PLATFORM_ZEPHYR)
++    struct timespec ts;
++    z_impl_clock_gettime(CLOCK_REALTIME, &ts);
++    return (((int64_t)ts.tv_sec) * 1000000000) + ts.tv_nsec;
+ #else
+     struct timespec ts;
+     clock_gettime(CLOCK_REALTIME, &ts);
